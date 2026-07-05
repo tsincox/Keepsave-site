@@ -1,0 +1,124 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #0d0f12;
+  color: white;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+a {
+  color: #4fe3c1;
+  text-decoration: none;
+}
+
+/* NAV */
+.nav {
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #4fe3c1;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(180deg, #0d0f12 0%, #111418 100%);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.sub {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #4fe3c1;
+  color: #0d0f12;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.cta:hover {
+  background: #3bcaa9;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: #14171c;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2329;
+}
+
+/* HOW IT WORKS */
+.how {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 240px;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  background: #4fe3c1;
+  color: #0d0f12;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin: 0 auto 12px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  opacity: 0.7;
+}
+
+.footer a {
+  margin: 0 12px;
+}

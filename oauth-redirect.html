@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Connecting...</title>
+</head>
+<body style="background:#0d0d0d; color:#a8f0c8; font-family:sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; margin:0;">
+  <p>Connecting your account, you can close this if it doesn't redirect...</p>
+  <script>
+    var params = window.location.search;
+    window.location.href = "keepsave://oauth-redirect" + params;
+  </script>
+</body>
+</html>
