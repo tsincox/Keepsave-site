@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "KeepSave",
-    "slug": "KeepSave",
+    "slug": "deallibrary2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "36103c4b-ee61-4640-9b2e-04426fe2da1d"
+      }
+    },
+    "owner": "mrthaddy",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/36103c4b-ee61-4640-9b2e-04426fe2da1d"
     }
   }
 }
